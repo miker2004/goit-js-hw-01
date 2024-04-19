@@ -2,7 +2,7 @@ function getElementWidth(content, padding, border) {
     const x = content.replace("px", "");
     const y = padding.replace("px", "");
     const z = border.replace("px", "");
-    return console.log( Number(x) + 2 * Number(y) + 2 * Number(z));
+    return ( Number(x) + 2 * Number(y) + 2 * Number(z));
 
 }
 
